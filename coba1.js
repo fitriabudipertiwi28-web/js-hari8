@@ -1,3 +1,5 @@
-const prompt =require ('prompt-sync')();
-const cetakNama = require ('./coba.js')
-console.log (cetakNama ('Aaf'))
+
+function cetakNama(nama) {
+    return `Halo, nama saya ${nama}`;
+}
+module.exports = cetakNama ;

@@ -1,4 +1,9 @@
-const coba = require('coba.js')
-const moment = require('moment');
+const prompt = require('prompt-sync')();
 
-console.log(coba.cetakNama('Aaf'), coba.PI;
+function cetakNama(nama) {
+    return `Halo, nama saya ${nama}`;
+}
+const PI = 3.14;
+
+module.exports.cetakNama = cetakNama;
+module.exports.PI = PI;
