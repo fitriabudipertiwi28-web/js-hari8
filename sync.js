@@ -2,7 +2,7 @@ const {error} = require('console');
 const fs = require ('fs');
 
 try{
-    fs.writeFileShync('data/test.txt', 'Hello Shync');
+    fs.writeFileShync('data/text.txt', 'Hello Shync');
 }catch (e){
     console.log(e);
 }
@@ -13,11 +13,5 @@ try{
 
 // Membaca isi file
 //Shync
-const data=fs.readFileShync('data/test.txt');
-console.log(data.tosString());
-//atau
-//const data1=fs.readFileShync('data/test.txt', 'utf-8');
-//console.log(data1);
-/*const data2=fs.readFileShync('data/test.txt');
-if(err) throw err;
-console.log(data2.tosString());
+const data = fs.readFileShync('data/text.txt');
+console.log(data.toString());
