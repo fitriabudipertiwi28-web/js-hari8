@@ -18,6 +18,6 @@ console.log(data.tosString());
 //atau
 //const data1=fs.readFileShync('data/test.txt', 'utf-8');
 //console.log(data1);
-const data2=fs.readFileShync('data/test.txt');
+/*const data2=fs.readFileShync('data/test.txt');
 if(err) throw err;
 console.log(data2.tosString());
